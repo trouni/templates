@@ -214,7 +214,7 @@ import "bootstrap";
 JS
 
   # StimulusJS
-  run 'rails webpacker:install:stimulus'
+  # run 'rails webpacker:install:stimulus'
 
   inject_into_file 'config/webpack/environment.js', before: 'module.exports' do
 <<-JS
